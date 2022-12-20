@@ -4,7 +4,8 @@ const fs = require('fs');
 
 // TODO: Create an array of questions for user input
 const generateREADME = ({github, email, project, description, license, install, runtest, usage, contribution}) =>{
-   const contentReadme = `user github is ${github}/n, user email is ${email}/n, The project name is ${project}/n, The description${description},/n ${license},/n ${install},/n ${runtest},/n ${usage},/n ${contribution}`;
+   const contentReadme = 
+   `user github is ${github}\n, user email is ${email}\n, The project name is ${project}\n, The description${description},\n ${license},\n ${install},\n ${runtest},\n ${usage},\n ${contribution}`;
    return contentReadme;
   }
 
@@ -31,7 +32,7 @@ inquirer
             message: 'Please write a short description of your project',
          },
          {
-            type: 'checkbox',
+            type: 'list',
             name: 'license',
             message: 'What kind of license should your project have?',
             choices: ['Apache License 2.0', 'MIT License', 'GNU General Public License 3.0', 'Eclipse Public License 2.0'],
