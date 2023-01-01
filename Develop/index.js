@@ -1,8 +1,8 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-// TODO: Create an array of questions for user input
+// Function that generate Readme File
 const generateREADME = ({github, email, project, description, license, install, runtest, usage, contribution}) =>{
    const contentReadme = 
    `# ${project} <Your-Project-Title>
@@ -40,23 +40,20 @@ const generateREADME = ({github, email, project, description, license, install, 
     
    ## Tests
    
-   To run the test, run the following command
+   To run the test, run the following command <br>
    ${runtest}
    
    ## Questions
 
-   If you have any questions about the repo, open an issue or contact me directly at [${email}]. You can find my works at [${github}](https://github.com/${github}).
+   If you have any questions about the repo, please open an issue or contact me directly at [${email}]. You can find my works at [${github}](https://github.com/${github}).
    `
 
 
    return contentReadme;
   }
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-// }
 
-// // TODO: Create a function to initialize app
+// Function that will ask user and collect the data
 function init() {
    inquirer
    .prompt([
@@ -94,7 +91,7 @@ function init() {
       {
          type: 'input',
          name: 'runtest',
-         message: 'What command should be run to tun tests?',
+         message: 'What command should be run to conduct the tests?',
       },
       {
          type: 'input',
@@ -114,5 +111,5 @@ function init() {
    })
 }
 
-// // Function call to initialize app
+// Function call to initialize app
 init();
