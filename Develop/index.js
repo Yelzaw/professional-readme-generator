@@ -22,7 +22,7 @@ const generateREADME = ({github, email, project, description, license, install, 
 
    ## Installation
    
-   To run application need to install necessary dependencies and please run the following commands.
+   To run application need to install necessary dependencies and please run the following commands.<br>
    
    ${install}
    
@@ -41,8 +41,9 @@ const generateREADME = ({github, email, project, description, license, install, 
    ## Tests
    
    To run the test, run the following command <br>
-   ${runtest}
    
+   ${runtest}
+
    ## Questions
 
    If you have any questions about the repo, please open an issue or contact me directly at [${email}]. You can find my works at [${github}](https://github.com/${github}).
