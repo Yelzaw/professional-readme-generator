@@ -1,8 +1,8 @@
-# aa <Your-Project-Title>
+# Professional README Generator <Your-Project-Title>
 
    ## Description
    
-   aa
+   To help user to create Professional README for their project.
    
    ## Table of Contents
    
@@ -17,27 +17,27 @@
    
    To run application need to install necessary dependencies and please run the following commands.<br>
    
-   aa
+   npm install
    
    ## Usage
 
-   aa
+   nothing
 
    ## Contributing
 
-   aa
+   nothing
    
    ## License
 
-   This project is licensed under the Apache License 2.0.
+   This project is licensed under the MIT License.
     
    ## Tests
    
    To run the test, run the following command <br>
    
-   aa
+   npm test
 
    ## Questions
 
-   If you have any questions about the repo, please open an issue or contact me directly at [aa]. You can find my works at [aa](https://github.com/aa).
+   If you have any questions about the repo, please open an issue or contact me directly at [yelzawaung@gmail.com]. You can find my works at [yelzaw](https://github.com/yelzaw).
    

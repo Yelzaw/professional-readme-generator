@@ -14,10 +14,8 @@ When user want to create professional README, this application will help the use
 ## License
 MIT License
 
-## Completed Works - Video Link, Screenshot and Github
+## Completed Works - Walkthrough Video Link and Github
 
-- Video [link](https://valeriikryshtal.github.io/where-you-want-to-learn/)
+- Video [link](https://mega.nz/file/iw1FzRTS#m3-G7YT2nL_qfo3Mi6lzAGU6FiBEyTdUXImKRuXAKDc)
 
-- https://yelzaw.github.io/weather-dashboard-for-travelers/
-
-<img src="/assets/images/screenshot.png" width="350" alt="Screenshot of webpage">
+- https://github.com/Yelzaw/professional-readme-generator
