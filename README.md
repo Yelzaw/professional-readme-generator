@@ -16,6 +16,6 @@ MIT License
 
 ## Completed Works - Walkthrough Video Link and Github
 
-- Video [link](https://mega.nz/file/iw1FzRTS#m3-G7YT2nL_qfo3Mi6lzAGU6FiBEyTdUXImKRuXAKDc)
+- Video [link](https://mega.nz/file/Gg8xmSJR#2AQiflxbiHjspBOfaxoWt29lCAz6eWAjRkFoSgVhm60)
 
 - https://github.com/Yelzaw/professional-readme-generator
