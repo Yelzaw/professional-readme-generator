@@ -1,4 +1,4 @@
-# Professional README Generator <Your-Project-Title>
+# Professional README Generator <Your-Project-Title>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
    ## Description
    

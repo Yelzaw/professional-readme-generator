@@ -5,7 +5,7 @@ const fs = require('fs');
 // Function that generate Readme File
 const generateREADME = ({github, email, project, description, license, install, runtest, usage, contribution}) =>{
    const contentReadme = 
-   `# ${project} <Your-Project-Title>
+   `# ${project} <Your-Project-Title> ${licenseBadge(license)}
 
    ## Description
    
@@ -51,6 +51,21 @@ const generateREADME = ({github, email, project, description, license, install, 
 
 
    return contentReadme;
+  }
+
+  // License Badge Function
+  function licenseBadge(license){
+   let badgeForLicense = '';
+   if (license === 'Apache License 2.0') {
+      badgeForLicense = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+   } else if (license === 'MIT License') {
+      badgeForLicense = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+   } else if (license === 'GNU General Public License 3.0') {
+      badgeForLicense = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
+   } else if (license === 'Eclipse Public License 2.0') {
+      badgeForLicense = '[![License](https://img.shields.io/badge/License-EPL_2.0-red.svg)](https://opensource.org/licenses/EPL-2.0)'
+   }
+   return badgeForLicense;
   }
 
 
@@ -105,6 +120,7 @@ function init() {
          message: 'What is does the user need to know about contributing to the repo?',
       },
    ])
+   
    .then((answers) => {
       fs.writeFile('README.md', generateREADME(answers), (err) =>
       err ? console.log(err) : console.log('Generating README.MD ....')
