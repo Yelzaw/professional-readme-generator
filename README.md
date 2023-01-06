@@ -1,21 +1,43 @@
-# Professional README Generator
+# ss <Your-Project-Title> [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-## Description
-When user want to create professional README, this application will help the user to create quick a professional README for their new project.
+   ## Description
+   
+   ss
+   
+   ## Table of Contents
+   
+   - [Installation](#installation)
+   - [Usage](#usage)
+   - [Contributing](#contributing)
+   - [License](#license)
+   - [Tests](#tests)
+   - [Questions](#questions)
 
-## Credit
-- UNB Coding Bootcamp: Class Materials 
-- Google Search Materials
-- Forum and in-class discussion 
-- Discussion on https://stackoverflow.com/
-- https://www.w3schools.com
-- https://day.js.org/
+   ## Installation
+   
+   To run application need to install necessary dependencies and please run the following commands.<br>
+   
+   ss
+   
+   ## Usage
 
-## License
-MIT License
+   ss
 
-## Completed Works - Walkthrough Video Link and Github
+   ## Contributing
 
-- Video [link](https://mega.nz/file/iw1FzRTS#m3-G7YT2nL_qfo3Mi6lzAGU6FiBEyTdUXImKRuXAKDc)
+   ss
+   
+   ## License
 
-- https://github.com/Yelzaw/professional-readme-generator
+   This project is licensed under the Apache License 2.0.
+    
+   ## Tests
+   
+   To run the test, run the following command <br>
+   
+   ss
+
+   ## Questions
+
+   If you have any questions about the repo, please open an issue or contact me directly at [ss]. You can find my works at [ss](https://github.com/ss).
+   
