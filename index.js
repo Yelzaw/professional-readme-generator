@@ -108,7 +108,7 @@ function init() {
    ])
    
    .then((answers) => {
-      fs.writeFile('README.md', generateREADME(answers), (err) =>
+      fs.writeFile('./readme-sample/(sample)README.md', generateREADME(answers), (err) =>
       err ? console.log(err) : console.log('Generating README.MD ....')
       );
    })
